@@ -57,6 +57,8 @@ function github_api_get {
     local url="${API_URL}/${endpoint}"
     curl -s -u "${USERNAME}:${TOKEN}" "$url"
 }
+# final url formed for reference: 
+# curl -s -u anilsri102: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 "https://api.github.com/repos/anil-open-projects/First_repo/collaborators"
 
 # Function to list users with read access to the repository
 function list_users_with_read_access {
