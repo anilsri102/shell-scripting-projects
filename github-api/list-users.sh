@@ -3,6 +3,11 @@
 #####################################################################################################
 # About: This script makes an API call to list GitHub collaborators with read access to a repo.
 #
+# Picked API call from GITHUB API documentation: 
+# https://docs.github.com/en/rest/collaborators/collaborators?apiVersion=2022-11-28
+#
+# API_Call: https://api.github.com/repos/OWNER/REPO/collaborators
+#
 # Input: 
 #   1. You must export USERNAME and TOKEN (GitHub personal access token)
 #   2. You must pass exactly two arguments: <repo_owner> <repo_name>
